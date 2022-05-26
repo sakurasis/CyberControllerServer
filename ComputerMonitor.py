@@ -1,7 +1,7 @@
-import threading
-from ctypes import *
-import time
 import subprocess
+import threading
+import time
+
 
 class ComputerMonitor:
 	def __init__(self, callback):
